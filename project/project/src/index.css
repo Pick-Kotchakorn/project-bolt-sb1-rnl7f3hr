@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+Thai:wght@400;500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -56,10 +56,10 @@
       0 24px 48px -12px rgba(42, 42, 38, 0.12);
   }
   .gradient-coral {
-    background: linear-gradient(135deg, #a03731 0%, #df7d70 50%, #edada3 100%);
+    background: linear-gradient(135deg, #a93922 0%, #c54327 50%, #e88f7a 100%);
   }
   .gradient-text-coral {
-    background: linear-gradient(135deg, #8e322c 0%, #a03731 100%);
+    background: linear-gradient(135deg, #8a301e 0%, #c54327 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

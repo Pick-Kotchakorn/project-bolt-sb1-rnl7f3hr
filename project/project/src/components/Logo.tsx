@@ -23,9 +23,9 @@ export default function Logo({ size = 36, showWordmark = true, className = '' }:
       >
         <defs>
           <linearGradient id={gradId} x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
-            <stop stopColor="#df7d70" />
-            <stop offset="0.5" stopColor="#a03731" />
-            <stop offset="1" stopColor="#762a25" />
+            <stop stopColor="#e88f7a" />
+            <stop offset="0.5" stopColor="#c54327" />
+            <stop offset="1" stopColor="#8a301e" />
           </linearGradient>
         </defs>
         <path d="M20 4 L32 8 L32 19 C32 26 27 32 20 36 C13 32 8 26 8 19 L8 8 Z" fill={`url(#${gradId})`} />
