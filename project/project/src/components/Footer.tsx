@@ -1,9 +1,10 @@
-import { ShieldCheck, Twitter, Youtube, Instagram } from 'lucide-react';
+import { Battery as Twitter, Route as Youtube, Drama as Instagram } from 'lucide-react';
+import Logo from '@/components/Logo';
 
 const footerNav = [
   {
     title: 'Product',
-    links: ['How it works', 'Features', 'Verification', 'Pricing'],
+    links: ['How it works', 'Features', 'Verification', 'Pricing', 'Demo'],
   },
   {
     title: 'Company',
@@ -21,13 +22,8 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid gap-10 md:grid-cols-[1.5fr_1fr_1fr_1fr]">
           <div>
-            <a href="#" className="flex items-center gap-2.5">
-              <span className="flex h-9 w-9 items-center justify-center rounded-xl gradient-coral shadow-soft">
-                <ShieldCheck className="h-5 w-5 text-white" strokeWidth={2.5} />
-              </span>
-              <span className="font-display text-lg font-extrabold tracking-tight text-ink-900">
-                PROVENA
-              </span>
+            <a href="#">
+              <Logo />
             </a>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-ink-500">
               Turn your work into proof. One commercial profile that shows brands

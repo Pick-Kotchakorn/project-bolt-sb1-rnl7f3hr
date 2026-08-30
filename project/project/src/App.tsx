@@ -5,6 +5,8 @@ import Features from '@/components/Features';
 import Verification from '@/components/Verification';
 import ProblemSolution from '@/components/ProblemSolution';
 import Testimonials from '@/components/Testimonials';
+import Pricing from '@/components/Pricing';
+import Demo from '@/components/Demo';
 import CTA from '@/components/CTA';
 import Footer from '@/components/Footer';
 
@@ -19,6 +21,8 @@ function App() {
         <Verification />
         <ProblemSolution />
         <Testimonials />
+        <Demo />
+        <Pricing />
         <CTA />
       </main>
       <Footer />

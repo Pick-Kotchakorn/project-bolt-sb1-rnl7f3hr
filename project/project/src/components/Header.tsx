@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react';
-import { Menu, X, ShieldCheck } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import Logo from '@/components/Logo';
 
 const navLinks = [
   { label: 'How it works', href: '#how-it-works' },
   { label: 'Features', href: '#features' },
   { label: 'Verification', href: '#verification' },
   { label: 'Reviews', href: '#reviews' },
+  { label: 'Pricing', href: '#pricing' },
 ];
 
 export default function Header() {
@@ -26,13 +28,8 @@ export default function Header() {
       }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3.5 sm:px-6 lg:px-8">
-        <a href="#" className="flex items-center gap-2.5" aria-label="PROVENA home">
-          <span className="flex h-9 w-9 items-center justify-center rounded-xl gradient-coral shadow-soft">
-            <ShieldCheck className="h-5 w-5 text-white" strokeWidth={2.5} />
-          </span>
-          <span className="font-display text-lg font-extrabold tracking-tight text-ink-900">
-            PROVENA
-          </span>
+        <a href="#" aria-label="PROVENA home">
+          <Logo />
         </a>
 
         <div className="hidden items-center gap-8 lg:flex">
